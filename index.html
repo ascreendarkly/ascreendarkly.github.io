@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1> Hello World!</h1>
-</body>
+    <head> 
+        <link rel="stylesheet" href="styles.css" />
+        </head>
+      <body>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">Thanks for filling in our form.</p>
+      <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></input></label>
+        <br>
+        <label id="email-label">Email <input id="email" placeholder="Enter your email" type="email" required></input></label>
+        <br>
+        <label id="number-label">Age (optional) <input id="number" type="number" min="13" max="113" placeholder="Age"></input></label>
+      </fieldset>
+      <fieldset>
+        <br>
+        Which option best describes your current role?<select id="dropdown">
+          <option value="">Select an option</option>
+          <option value="1">Prompt Engineer</option>
+          <option value="2">Script Kiddie</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <br>
+        Would you recommend freeCodeCamp to a friend?
+        <br>
+        <input name="recommendation" type="radio" value="Yes" />Yeah</input>
+        <br>
+        <input name="recommendation" type="radio" value="No" />Yeah, nah</input>
+      </fieldset>
+      <fieldset>
+          <br>
+          What would you like to see improved?
+          <br>
+      <input name="lesson-type" type="checkbox" value="clickbait"> Clickbait</input>
+      <br>
+      <input name="lesson-type" type="checkbox" value="low-quality-content"> Low quality content</input>
+      </fieldset>
+      <fieldset>
+      <textarea placeholder="Enter your comment here..."></textarea>
+      </fieldset>
+      <fieldset>
+      <input id="submit" type="submit" value="Submit" />
+      </fieldset>
+      </form>
+      </body>
 </html>
