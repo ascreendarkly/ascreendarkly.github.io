@@ -1,11 +1,17 @@
 body {
     font-family: Tahoma;
+    font-size: 16px;
     color: white;
     background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+
 }
 
 h1, #title, #description {
   text-align: center;
+}
+
+form {
+  background-color: rgb(39, 39, 70);
 }
 
 #description {
@@ -17,5 +23,14 @@ fieldset {
 }
 
 input,select {
-    margin: 1em 0 0 1em ;
+  display: inline-block;  
+  margin: 1em 0 0 1em ;
   }
+
+label {
+  display:block;
+}
+
+select {
+  display:block
+}
