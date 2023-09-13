@@ -4,8 +4,12 @@ body {
     background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
 }
 
-h1, #title, #description {
+#title, #description {
   text-align: center;
+}
+
+#description {
+  font-style: italic;
 }
 
 form {
@@ -15,17 +19,11 @@ form {
   background-color: rgb(39, 39, 70);
 }
 
-#description {
-  font-style: italic;
-}
-
 fieldset {
   border: 0;
-  padding: 1rem;
 }
 
 input,select {
-  display: inline-block;  
   margin: 1em 0 0 1em;
   }
 
@@ -34,24 +32,18 @@ label {
 }
 
 select {
-  display:block;
   width: 95%;
   min-height: 2em;
 }
 
-button {
-  min-height: 2rem;
-}
-
 #submit {
-  font-weight: bold;
-  font-size: 1rem;
-  margin-left: 42%;
-  width: 16%;
+  font-size: 1em;
+  margin-left: 40%;
+  width: 20%;
   min-height: 2.5em;
 }
 
 textarea {
   margin: 1em 0 0 1em;
-  width: 95%;
+  width: 93%;
 }
