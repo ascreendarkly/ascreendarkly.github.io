@@ -44,6 +44,14 @@ button {
 }
 
 #submit {
-  width: 10%;
-  min-height: 2em;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-left: 42%;
+  width: 16%;
+  min-height: 2.5em;
+}
+
+textarea {
+  margin: 1em 0 0 1em;
+  width: 95%;
 }
