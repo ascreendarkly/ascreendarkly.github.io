@@ -1,0 +1,49 @@
+body {
+    font-family: Tahoma;
+    color: white;
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+}
+
+form {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+  background-color: rgb(39, 39, 70);
+}
+
+fieldset {
+  border: 0;
+}
+
+input,select {
+  margin: 1em 0 0 1em;
+  }
+
+label {
+  display:block;
+}
+
+select {
+  width: 95%;
+  min-height: 2em;
+}
+
+#submit {
+  font-size: 1em;
+  margin-left: 40%;
+  width: 20%;
+  min-height: 2.5em;
+}
+
+textarea {
+  margin: 1em 0 0 1em;
+  width: 93%;
+}
