@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Monthly shared account top-up calculator</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <header class="container">
+                <h1>Monthly shared account top-up calculator</h1>
+            </header>
+            <main class="container">
+                <p id="explanation">Enter the available balance on the first of the month.</p>
+                    <label for="available-balance">Available balance:</label>
+                    <input type="number" name="available-balance" id="available-balance">
+                    <button id="calculate-button" onclick="calculateShares()">Calculate Shares</button>
+                <div class="container shares">
+                <h2>Ashley's share</h2>
+                <p id="ashleys-share">$</p>
+                <h2>Nick's share</h2>
+                <p id="nicks-share">$</p>
+                </div>
+            </main>
+            <script src="./script.js"></script>
+    </body>
+</html>
