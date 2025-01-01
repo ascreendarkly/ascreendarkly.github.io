@@ -9,3 +9,4 @@
             fortyFiveShare.innerHTML= `$${fortyFiveAmount}`;
             fiftyFiveShare.innerHTML = `$${fiftyFiveAmount}`;
         }       
+
