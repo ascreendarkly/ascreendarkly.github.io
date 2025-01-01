@@ -2,6 +2,10 @@ html {
     font-family: 'Noto Sans', sans-serif;
 }
 
+header {
+    text-align: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -10,10 +14,15 @@ html {
 
 #explanation {
     margin-bottom: 2%;
+    text-align: center;
+}
+
+label {
+    margin-top: 1.5%;
 }
 
 #available-balance {
-    margin-top: 0.5%;
+    margin-top: 1.5%;
 }
 
 #calculate-button {
