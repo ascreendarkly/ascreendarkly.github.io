@@ -32,25 +32,25 @@ p {
 }
 
 #explanation {
-    margin-bottom: 2%;
+    margin-bottom: 2vh;
     text-align: center;
 }
 
 label {
     font-size: 1.6rem;
-    margin-top: 1.5%;
+    margin-top: 1.5vh;
 }
 
 #available-balance {
-    margin-top: 1.5%;
+    margin-top: 1.5vh;
 }
 
 #calculate-button {
-    margin-top: 1.5%;
+    margin-top: 1.5vh;
 }
 
 .shares {
-    margin-top: 8%;
+    margin-top: 8vh;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
