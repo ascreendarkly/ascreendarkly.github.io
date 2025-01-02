@@ -1,20 +1,15 @@
-html {
-  font-size: 62.5%;
-}
-
 body {
     display: flex;
     flex-direction: column;
     max-width: 600px;
     font-family: 'Noto Sans', Arial, sans-serif;
     margin: auto;
-    margin-top: 10vh;
-    line-height: 1.6;
     /*border: 1px solid;*/
 }
 
 header {
     display: flex;
+    margin-top: 10vh;
     flex-direction: column;
     align-items: center;
     /*border: 1px solid;*/
@@ -28,7 +23,7 @@ header {
 
 nav {
     width: 100%;
-    font-size: 2.4rem;
+    font-size: 1.4rem;
     margin: 10vh 0 15vh 0;
     /*border: 1px solid;*/
 }
@@ -52,18 +47,21 @@ a {
 main {
     display: flex;
     justify-content: center;
-    font-size: 1.6rem;
+
 }
 
 footer {
     margin-top: 20vh;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     /*border: 1px solid;*/
 }
 
 @media (max-width: 600px) {
-    
+    footer {
+        margin-top: 10vh;
+    }
+
     ul {
         flex-direction: column;
         align-items: center;
