@@ -1,6 +1,5 @@
 html {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 62.5%;
 }
 
 header {
@@ -12,17 +11,13 @@ body {
 }
 
 h1 {
-    font-size: 2.4rem;
+    font-size: 1.4rem;
     font-weight: normal;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: normal;
-}
-
-p {
-    font-size: 1.8rem;
 }
 
 .container {
@@ -32,17 +27,15 @@ p {
 }
 
 #explanation {
-    margin-bottom: 2vh;
     text-align: center;
 }
 
 label {
-    font-size: 1.6rem;
     margin-top: 1.5vh;
 }
 
 #available-balance {
-    margin-top: 1.5vh;
+    margin-top: 1vh;
 }
 
 #calculate-button {
